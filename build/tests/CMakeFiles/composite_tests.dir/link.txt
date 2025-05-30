@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/composite_tests.dir/test_composite.cpp.o CMakeFiles/composite_tests.dir/__/src/component.cpp.o CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o CMakeFiles/composite_tests.dir/__/src/composite.cpp.o -o composite_tests  ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a 

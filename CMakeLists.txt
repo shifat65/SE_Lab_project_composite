@@ -3,6 +3,14 @@ project(CompositePattern)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# Set include directories
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include
+)
+
+# Add Google Test as a subdirectory (if using local copy)
+add_subdirectory(googletest)
+
 # Main executable
 add_executable(composite_demo 
     src/main.cpp
