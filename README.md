@@ -71,7 +71,11 @@ FileSystemComposite
    - Handles recursive operations:  
      - `getSize()`: Sums sizes of all children  
      - `display()`: Shows tree structure with indentation  
-   - Manages child components via add/remove/getChild/getChildCount
+   - Manages child components via
+     - `add()`: Add new file or folder
+     - `remove()`: Remove any file or folder
+     - `getChild()`: Returns the Childs
+     - `getChildCount()`: Returns total child count
 
 7. **`main.cpp`**  
    - Demo program that:  
@@ -154,42 +158,42 @@ Number of items in Documents: 3
 ## **Tests**
 
 The project includes 14 unit tests covering:
-* File and directory creation
-* Size calculations
-* Nesting validation
-* Display formatting
-* Edge case handling
+   * File and directory creation
+   * Size calculations
+   * Nesting validation
+   * Display formatting
+   * Edge case handling
 ---
 
 ### Independent Paths Covered
 1. File Operations Path
-* File creation and properties
-* File display formatting
-* Invalid operations on files
+   * File creation and properties
+   * File display formatting
+   * Invalid operations on files
 
 2. Directory Operations Path
-* Empty directory operations
-* Single file operations
-* Multiple file operations
-* File removal cases
+   * Empty directory operations
+   * Single file operations
+   * Multiple file operations
+   * File removal cases
 
 3. Nested Structure Path
-* Shallow nesting
-* Deep nesting
-* Mixed files and directories
+   * Shallow nesting
+   * Deep nesting
+   * Mixed files and directories
 
 4. Error Handling Path
-* Invalid indices
-* Operations on wrong types
-* Nonexistent removal
+   * Invalid indices
+   * Operations on wrong types
+   * Nonexistent removal
 
 5. Display Formatting Path
-* Empty display
-* Simple display
-* Complex hierarchical display
+   * Empty display
+   * Simple display
+   * Complex hierarchical display
 
 6. Stress Test Path
-* Large number of files
-* Deep directory structures
-* Memory management
+   * Large number of files
+   * Deep directory structures
+   * Memory management
 
