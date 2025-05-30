@@ -37,3 +37,7 @@ std::shared_ptr<FileSystemComponent> Directory::getChild(int index) const {
     }
     return children_[index];
 }
+
+size_t Directory::getChildCount() const {
+    return children_.size();
+}

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/composite_demo.dir/src/main.cpp.o CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o CMakeFiles/composite_demo.dir/src/file.cpp.o CMakeFiles/composite_demo.dir/src/directory.cpp.o -o composite_demo 

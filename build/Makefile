@@ -172,17 +172,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named composite_demo
+# Target rules for targets named file_system_demo
 
 # Build rule for target.
-composite_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composite_demo
-.PHONY : composite_demo
+file_system_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_system_demo
+.PHONY : file_system_demo
 
 # fast build rule for target.
-composite_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/build
-.PHONY : composite_demo/fast
+file_system_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/build
+.PHONY : file_system_demo/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -237,24 +237,24 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named composite_tests
+# Target rules for targets named file_system_tests
 
 # Build rule for target.
-composite_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composite_tests
-.PHONY : composite_tests
+file_system_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 file_system_tests
+.PHONY : file_system_tests
 
 # fast build rule for target.
-composite_tests/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/build
-.PHONY : composite_tests/fast
+file_system_tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/build
+.PHONY : file_system_tests/fast
 
 src/directory.o: src/directory.cpp.o
 .PHONY : src/directory.o
 
 # target to build an object file
 src/directory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/directory.cpp.o
 .PHONY : src/directory.cpp.o
 
 src/directory.i: src/directory.cpp.i
@@ -262,7 +262,7 @@ src/directory.i: src/directory.cpp.i
 
 # target to preprocess a source file
 src/directory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/directory.cpp.i
 .PHONY : src/directory.cpp.i
 
 src/directory.s: src/directory.cpp.s
@@ -270,7 +270,7 @@ src/directory.s: src/directory.cpp.s
 
 # target to generate assembly for a file
 src/directory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/directory.cpp.s
 .PHONY : src/directory.cpp.s
 
 src/file.o: src/file.cpp.o
@@ -278,7 +278,7 @@ src/file.o: src/file.cpp.o
 
 # target to build an object file
 src/file.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file.cpp.o
 .PHONY : src/file.cpp.o
 
 src/file.i: src/file.cpp.i
@@ -286,7 +286,7 @@ src/file.i: src/file.cpp.i
 
 # target to preprocess a source file
 src/file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file.cpp.i
 .PHONY : src/file.cpp.i
 
 src/file.s: src/file.cpp.s
@@ -294,7 +294,7 @@ src/file.s: src/file.cpp.s
 
 # target to generate assembly for a file
 src/file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file.cpp.s
 .PHONY : src/file.cpp.s
 
 src/file_system_component.o: src/file_system_component.cpp.o
@@ -302,7 +302,7 @@ src/file_system_component.o: src/file_system_component.cpp.o
 
 # target to build an object file
 src/file_system_component.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file_system_component.cpp.o
 .PHONY : src/file_system_component.cpp.o
 
 src/file_system_component.i: src/file_system_component.cpp.i
@@ -310,7 +310,7 @@ src/file_system_component.i: src/file_system_component.cpp.i
 
 # target to preprocess a source file
 src/file_system_component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file_system_component.cpp.i
 .PHONY : src/file_system_component.cpp.i
 
 src/file_system_component.s: src/file_system_component.cpp.s
@@ -318,7 +318,7 @@ src/file_system_component.s: src/file_system_component.cpp.s
 
 # target to generate assembly for a file
 src/file_system_component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/file_system_component.cpp.s
 .PHONY : src/file_system_component.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -326,7 +326,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -334,7 +334,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -342,7 +342,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_demo.dir/build.make CMakeFiles/file_system_demo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -358,8 +358,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... composite_demo"
-	@echo "... composite_tests"
+	@echo "... file_system_demo"
+	@echo "... file_system_tests"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

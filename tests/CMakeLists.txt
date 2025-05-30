@@ -7,7 +7,7 @@ include_directories(
 )
 
 # Create test executable
-add_executable(composite_tests 
+add_executable(file_system_tests 
     test_file_system.cpp
     ../src/file_system_component.cpp
     ../src/file.cpp
@@ -15,11 +15,11 @@ add_executable(composite_tests
 )
 
 # Link with Google Test libraries
-target_link_libraries(composite_tests 
+target_link_libraries(file_system_tests 
     PRIVATE 
     gtest 
     gtest_main
 )
 
 # Add test
-add_test(NAME composite_tests COMMAND composite_tests)
+add_test(NAME file_system_tests COMMAND file_system_tests)

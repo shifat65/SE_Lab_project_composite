@@ -172,25 +172,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/composite_tests.dir/rule:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/composite_tests.dir/rule
-.PHONY : tests/CMakeFiles/composite_tests.dir/rule
+tests/CMakeFiles/file_system_tests.dir/rule:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/file_system_tests.dir/rule
+.PHONY : tests/CMakeFiles/file_system_tests.dir/rule
 
 # Convenience name for target.
-composite_tests: tests/CMakeFiles/composite_tests.dir/rule
-.PHONY : composite_tests
+file_system_tests: tests/CMakeFiles/file_system_tests.dir/rule
+.PHONY : file_system_tests
 
 # fast build rule for target.
-composite_tests/fast:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/build
-.PHONY : composite_tests/fast
+file_system_tests/fast:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/build
+.PHONY : file_system_tests/fast
 
 __/src/directory.o: __/src/directory.cpp.o
 .PHONY : __/src/directory.o
 
 # target to build an object file
 __/src/directory.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/directory.cpp.o
 .PHONY : __/src/directory.cpp.o
 
 __/src/directory.i: __/src/directory.cpp.i
@@ -198,7 +198,7 @@ __/src/directory.i: __/src/directory.cpp.i
 
 # target to preprocess a source file
 __/src/directory.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.i
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/directory.cpp.i
 .PHONY : __/src/directory.cpp.i
 
 __/src/directory.s: __/src/directory.cpp.s
@@ -206,7 +206,7 @@ __/src/directory.s: __/src/directory.cpp.s
 
 # target to generate assembly for a file
 __/src/directory.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.s
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/directory.cpp.s
 .PHONY : __/src/directory.cpp.s
 
 __/src/file.o: __/src/file.cpp.o
@@ -214,7 +214,7 @@ __/src/file.o: __/src/file.cpp.o
 
 # target to build an object file
 __/src/file.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file.cpp.o
 .PHONY : __/src/file.cpp.o
 
 __/src/file.i: __/src/file.cpp.i
@@ -222,7 +222,7 @@ __/src/file.i: __/src/file.cpp.i
 
 # target to preprocess a source file
 __/src/file.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.i
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file.cpp.i
 .PHONY : __/src/file.cpp.i
 
 __/src/file.s: __/src/file.cpp.s
@@ -230,7 +230,7 @@ __/src/file.s: __/src/file.cpp.s
 
 # target to generate assembly for a file
 __/src/file.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.s
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file.cpp.s
 .PHONY : __/src/file.cpp.s
 
 __/src/file_system_component.o: __/src/file_system_component.cpp.o
@@ -238,7 +238,7 @@ __/src/file_system_component.o: __/src/file_system_component.cpp.o
 
 # target to build an object file
 __/src/file_system_component.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file_system_component.cpp.o
 .PHONY : __/src/file_system_component.cpp.o
 
 __/src/file_system_component.i: __/src/file_system_component.cpp.i
@@ -246,7 +246,7 @@ __/src/file_system_component.i: __/src/file_system_component.cpp.i
 
 # target to preprocess a source file
 __/src/file_system_component.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.i
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file_system_component.cpp.i
 .PHONY : __/src/file_system_component.cpp.i
 
 __/src/file_system_component.s: __/src/file_system_component.cpp.s
@@ -254,7 +254,7 @@ __/src/file_system_component.s: __/src/file_system_component.cpp.s
 
 # target to generate assembly for a file
 __/src/file_system_component.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.s
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/__/src/file_system_component.cpp.s
 .PHONY : __/src/file_system_component.cpp.s
 
 test_file_system.o: test_file_system.cpp.o
@@ -262,7 +262,7 @@ test_file_system.o: test_file_system.cpp.o
 
 # target to build an object file
 test_file_system.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/test_file_system.cpp.o
 .PHONY : test_file_system.cpp.o
 
 test_file_system.i: test_file_system.cpp.i
@@ -270,7 +270,7 @@ test_file_system.i: test_file_system.cpp.i
 
 # target to preprocess a source file
 test_file_system.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.i
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/test_file_system.cpp.i
 .PHONY : test_file_system.cpp.i
 
 test_file_system.s: test_file_system.cpp.s
@@ -278,7 +278,7 @@ test_file_system.s: test_file_system.cpp.s
 
 # target to generate assembly for a file
 test_file_system.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.s
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/file_system_tests.dir/build.make tests/CMakeFiles/file_system_tests.dir/test_file_system.cpp.s
 .PHONY : test_file_system.cpp.s
 
 # Help Target
@@ -294,7 +294,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... composite_tests"
+	@echo "... file_system_tests"
 	@echo "... __/src/directory.o"
 	@echo "... __/src/directory.i"
 	@echo "... __/src/directory.s"

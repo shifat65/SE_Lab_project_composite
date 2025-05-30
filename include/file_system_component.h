@@ -18,4 +18,4 @@ public:
     virtual std::shared_ptr<FileSystemComponent> getChild(int index) const;
 };
 
-#endif // FILE_SYSTEM_COMPONENT_H
+#endif

@@ -1,32 +1,42 @@
-#include <memory>
 #include "iostream"
+#include <memory>
 #include "directory.h"
 #include "file.h"
 
 int main() {
     // Create files
-    auto file1 = std::make_shared<File>("document.txt", 1500);
-    auto file2 = std::make_shared<File>("image.jpg", 3500);
-    auto file3 = std::make_shared<File>("notes.txt", 500);
+    auto resume = std::make_shared<File>("resume.pdf", 2500);
+    auto vacationPhoto = std::make_shared<File>("vacation.jpg", 4200);
+    auto notes = std::make_shared<File>("notes.txt", 300);
+    auto budget = std::make_shared<File>("budget.xlsx", 1800);
     
     // Create directories
-    auto rootDir = std::make_shared<Directory>("Root");
+    auto homeDir = std::make_shared<Directory>("Home");
     auto documentsDir = std::make_shared<Directory>("Documents");
-    auto imagesDir = std::make_shared<Directory>("Images");
+    auto picturesDir = std::make_shared<Directory>("Pictures");
+    auto projectsDir = std::make_shared<Directory>("Projects");
     
     // Build the file system structure
-    rootDir->add(documentsDir);
-    rootDir->add(imagesDir);
-    documentsDir->add(file1);
-    documentsDir->add(file3);
-    imagesDir->add(file2);
+    homeDir->add(documentsDir);
+    homeDir->add(picturesDir);
+    homeDir->add(projectsDir);
+    
+    documentsDir->add(resume);
+    documentsDir->add(notes);
+    documentsDir->add(budget);
+    
+    picturesDir->add(vacationPhoto);
     
     // Display the file system
     std::cout << "File System Structure:" << std::endl;
-    rootDir->display();
+    homeDir->display();
     
-    // Show total size
-    std::cout << "\nTotal size of root: " << rootDir->getSize() << " bytes" << std::endl;
+    // Show statistics
+    std::cout << "\nStatistics:" << std::endl;
+    std::cout << "Total size of Home: " << homeDir->getSize() << " bytes" << std::endl;
+    std::cout << "Documents folder size: " << documentsDir->getSize() << " bytes" << std::endl;
+    std::cout << "Number of items in Documents: " 
+              << documentsDir->getChildCount() << std::endl;
     
     return 0;
 }

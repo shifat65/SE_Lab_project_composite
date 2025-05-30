@@ -12,7 +12,7 @@ include_directories(
 add_subdirectory(googletest)
 
 # Main executable
-add_executable(composite_demo 
+add_executable(file_system_demo 
     src/main.cpp
     src/file_system_component.cpp
     src/file.cpp

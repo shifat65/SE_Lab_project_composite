@@ -15,4 +15,4 @@ private:
     size_t size_;
 };
 
-#endif // FILE_H
+#endif
