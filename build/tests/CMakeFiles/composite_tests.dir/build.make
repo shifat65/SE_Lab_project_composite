@@ -69,76 +69,76 @@ include tests/CMakeFiles/composite_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/composite_tests.dir/flags.make
 
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_composite.cpp
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o -MF CMakeFiles/composite_tests.dir/test_composite.cpp.o.d -o CMakeFiles/composite_tests.dir/test_composite.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_composite.cpp
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_file_system.cpp
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o -MF CMakeFiles/composite_tests.dir/test_file_system.cpp.o.d -o CMakeFiles/composite_tests.dir/test_file_system.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_file_system.cpp
 
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/test_composite.cpp.i"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_composite.cpp > CMakeFiles/composite_tests.dir/test_composite.cpp.i
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/test_file_system.cpp.i"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_file_system.cpp > CMakeFiles/composite_tests.dir/test_file_system.cpp.i
 
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/test_composite.cpp.s"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_composite.cpp -o CMakeFiles/composite_tests.dir/test_composite.cpp.s
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/test_file_system.cpp.s"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_file_system.cpp -o CMakeFiles/composite_tests.dir/test_file_system.cpp.s
 
-tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
-tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp
-tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/component.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/component.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
+tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp
 
-tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/component.cpp.i"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp > CMakeFiles/composite_tests.dir/__/src/component.cpp.i
+tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.i"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp > CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.i
 
-tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/component.cpp.s"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp -o CMakeFiles/composite_tests.dir/__/src/component.cpp.s
+tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.s"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp -o CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.s
 
-tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
-tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp
-tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
+tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/file.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/file.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp
 
-tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/leaf.cpp.i"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp > CMakeFiles/composite_tests.dir/__/src/leaf.cpp.i
+tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/file.cpp.i"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp > CMakeFiles/composite_tests.dir/__/src/file.cpp.i
 
-tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/leaf.cpp.s"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp -o CMakeFiles/composite_tests.dir/__/src/leaf.cpp.s
+tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/file.cpp.s"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp -o CMakeFiles/composite_tests.dir/__/src/file.cpp.s
 
-tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
-tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp
-tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/composite.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/composite.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o: tests/CMakeFiles/composite_tests.dir/flags.make
+tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp
+tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o: tests/CMakeFiles/composite_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o -MF CMakeFiles/composite_tests.dir/__/src/directory.cpp.o.d -o CMakeFiles/composite_tests.dir/__/src/directory.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp
 
-tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/composite.cpp.i"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp > CMakeFiles/composite_tests.dir/__/src/composite.cpp.i
+tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_tests.dir/__/src/directory.cpp.i"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp > CMakeFiles/composite_tests.dir/__/src/directory.cpp.i
 
-tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/composite.cpp.s"
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp -o CMakeFiles/composite_tests.dir/__/src/composite.cpp.s
+tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_tests.dir/__/src/directory.cpp.s"
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp -o CMakeFiles/composite_tests.dir/__/src/directory.cpp.s
 
 # Object files for target composite_tests
 composite_tests_OBJECTS = \
-"CMakeFiles/composite_tests.dir/test_composite.cpp.o" \
-"CMakeFiles/composite_tests.dir/__/src/component.cpp.o" \
-"CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o" \
-"CMakeFiles/composite_tests.dir/__/src/composite.cpp.o"
+"CMakeFiles/composite_tests.dir/test_file_system.cpp.o" \
+"CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o" \
+"CMakeFiles/composite_tests.dir/__/src/file.cpp.o" \
+"CMakeFiles/composite_tests.dir/__/src/directory.cpp.o"
 
 # External object files for target composite_tests
 composite_tests_EXTERNAL_OBJECTS =
 
-tests/composite_tests: tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o
-tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o
-tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o
-tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o
+tests/composite_tests: tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o
+tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o
+tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o
+tests/composite_tests: tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o
 tests/composite_tests: tests/CMakeFiles/composite_tests.dir/build.make
 tests/composite_tests: lib/libgtest.a
 tests/composite_tests: lib/libgtest_main.a

@@ -185,101 +185,101 @@ composite_tests/fast:
 	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/build
 .PHONY : composite_tests/fast
 
-__/src/component.o: __/src/component.cpp.o
-.PHONY : __/src/component.o
+__/src/directory.o: __/src/directory.cpp.o
+.PHONY : __/src/directory.o
 
 # target to build an object file
-__/src/component.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.o
-.PHONY : __/src/component.cpp.o
+__/src/directory.cpp.o:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.o
+.PHONY : __/src/directory.cpp.o
 
-__/src/component.i: __/src/component.cpp.i
-.PHONY : __/src/component.i
+__/src/directory.i: __/src/directory.cpp.i
+.PHONY : __/src/directory.i
 
 # target to preprocess a source file
-__/src/component.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.i
-.PHONY : __/src/component.cpp.i
+__/src/directory.cpp.i:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.i
+.PHONY : __/src/directory.cpp.i
 
-__/src/component.s: __/src/component.cpp.s
-.PHONY : __/src/component.s
+__/src/directory.s: __/src/directory.cpp.s
+.PHONY : __/src/directory.s
 
 # target to generate assembly for a file
-__/src/component.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/component.cpp.s
-.PHONY : __/src/component.cpp.s
+__/src/directory.cpp.s:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/directory.cpp.s
+.PHONY : __/src/directory.cpp.s
 
-__/src/composite.o: __/src/composite.cpp.o
-.PHONY : __/src/composite.o
+__/src/file.o: __/src/file.cpp.o
+.PHONY : __/src/file.o
 
 # target to build an object file
-__/src/composite.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.o
-.PHONY : __/src/composite.cpp.o
+__/src/file.cpp.o:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.o
+.PHONY : __/src/file.cpp.o
 
-__/src/composite.i: __/src/composite.cpp.i
-.PHONY : __/src/composite.i
+__/src/file.i: __/src/file.cpp.i
+.PHONY : __/src/file.i
 
 # target to preprocess a source file
-__/src/composite.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.i
-.PHONY : __/src/composite.cpp.i
+__/src/file.cpp.i:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.i
+.PHONY : __/src/file.cpp.i
 
-__/src/composite.s: __/src/composite.cpp.s
-.PHONY : __/src/composite.s
+__/src/file.s: __/src/file.cpp.s
+.PHONY : __/src/file.s
 
 # target to generate assembly for a file
-__/src/composite.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/composite.cpp.s
-.PHONY : __/src/composite.cpp.s
+__/src/file.cpp.s:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file.cpp.s
+.PHONY : __/src/file.cpp.s
 
-__/src/leaf.o: __/src/leaf.cpp.o
-.PHONY : __/src/leaf.o
+__/src/file_system_component.o: __/src/file_system_component.cpp.o
+.PHONY : __/src/file_system_component.o
 
 # target to build an object file
-__/src/leaf.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.o
-.PHONY : __/src/leaf.cpp.o
+__/src/file_system_component.cpp.o:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.o
+.PHONY : __/src/file_system_component.cpp.o
 
-__/src/leaf.i: __/src/leaf.cpp.i
-.PHONY : __/src/leaf.i
+__/src/file_system_component.i: __/src/file_system_component.cpp.i
+.PHONY : __/src/file_system_component.i
 
 # target to preprocess a source file
-__/src/leaf.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.i
-.PHONY : __/src/leaf.cpp.i
+__/src/file_system_component.cpp.i:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.i
+.PHONY : __/src/file_system_component.cpp.i
 
-__/src/leaf.s: __/src/leaf.cpp.s
-.PHONY : __/src/leaf.s
+__/src/file_system_component.s: __/src/file_system_component.cpp.s
+.PHONY : __/src/file_system_component.s
 
 # target to generate assembly for a file
-__/src/leaf.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/leaf.cpp.s
-.PHONY : __/src/leaf.cpp.s
+__/src/file_system_component.cpp.s:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/__/src/file_system_component.cpp.s
+.PHONY : __/src/file_system_component.cpp.s
 
-test_composite.o: test_composite.cpp.o
-.PHONY : test_composite.o
+test_file_system.o: test_file_system.cpp.o
+.PHONY : test_file_system.o
 
 # target to build an object file
-test_composite.cpp.o:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o
-.PHONY : test_composite.cpp.o
+test_file_system.cpp.o:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o
+.PHONY : test_file_system.cpp.o
 
-test_composite.i: test_composite.cpp.i
-.PHONY : test_composite.i
+test_file_system.i: test_file_system.cpp.i
+.PHONY : test_file_system.i
 
 # target to preprocess a source file
-test_composite.cpp.i:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_composite.cpp.i
-.PHONY : test_composite.cpp.i
+test_file_system.cpp.i:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.i
+.PHONY : test_file_system.cpp.i
 
-test_composite.s: test_composite.cpp.s
-.PHONY : test_composite.s
+test_file_system.s: test_file_system.cpp.s
+.PHONY : test_file_system.s
 
 # target to generate assembly for a file
-test_composite.cpp.s:
-	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_composite.cpp.s
-.PHONY : test_composite.cpp.s
+test_file_system.cpp.s:
+	cd /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.s
+.PHONY : test_file_system.cpp.s
 
 # Help Target
 help:
@@ -295,18 +295,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... composite_tests"
-	@echo "... __/src/component.o"
-	@echo "... __/src/component.i"
-	@echo "... __/src/component.s"
-	@echo "... __/src/composite.o"
-	@echo "... __/src/composite.i"
-	@echo "... __/src/composite.s"
-	@echo "... __/src/leaf.o"
-	@echo "... __/src/leaf.i"
-	@echo "... __/src/leaf.s"
-	@echo "... test_composite.o"
-	@echo "... test_composite.i"
-	@echo "... test_composite.s"
+	@echo "... __/src/directory.o"
+	@echo "... __/src/directory.i"
+	@echo "... __/src/directory.s"
+	@echo "... __/src/file.o"
+	@echo "... __/src/file.i"
+	@echo "... __/src/file.s"
+	@echo "... __/src/file_system_component.o"
+	@echo "... __/src/file_system_component.i"
+	@echo "... __/src/file_system_component.s"
+	@echo "... test_file_system.o"
+	@echo "... test_file_system.i"
+	@echo "... test_file_system.s"
 .PHONY : help
 
 

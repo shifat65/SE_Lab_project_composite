@@ -83,62 +83,62 @@ CMakeFiles/composite_demo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/main.cpp -o CMakeFiles/composite_demo.dir/src/main.cpp.s
 
-CMakeFiles/composite_demo.dir/src/component.cpp.o: CMakeFiles/composite_demo.dir/flags.make
-CMakeFiles/composite_demo.dir/src/component.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp
-CMakeFiles/composite_demo.dir/src/component.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/composite_demo.dir/src/component.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/component.cpp.o -MF CMakeFiles/composite_demo.dir/src/component.cpp.o.d -o CMakeFiles/composite_demo.dir/src/component.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp
+CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o: CMakeFiles/composite_demo.dir/flags.make
+CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp
+CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o -MF CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o.d -o CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp
 
-CMakeFiles/composite_demo.dir/src/component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp > CMakeFiles/composite_demo.dir/src/component.cpp.i
+CMakeFiles/composite_demo.dir/src/file_system_component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/file_system_component.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp > CMakeFiles/composite_demo.dir/src/file_system_component.cpp.i
 
-CMakeFiles/composite_demo.dir/src/component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp -o CMakeFiles/composite_demo.dir/src/component.cpp.s
+CMakeFiles/composite_demo.dir/src/file_system_component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/file_system_component.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp -o CMakeFiles/composite_demo.dir/src/file_system_component.cpp.s
 
-CMakeFiles/composite_demo.dir/src/leaf.cpp.o: CMakeFiles/composite_demo.dir/flags.make
-CMakeFiles/composite_demo.dir/src/leaf.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp
-CMakeFiles/composite_demo.dir/src/leaf.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/composite_demo.dir/src/leaf.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/leaf.cpp.o -MF CMakeFiles/composite_demo.dir/src/leaf.cpp.o.d -o CMakeFiles/composite_demo.dir/src/leaf.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp
+CMakeFiles/composite_demo.dir/src/file.cpp.o: CMakeFiles/composite_demo.dir/flags.make
+CMakeFiles/composite_demo.dir/src/file.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp
+CMakeFiles/composite_demo.dir/src/file.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/composite_demo.dir/src/file.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/file.cpp.o -MF CMakeFiles/composite_demo.dir/src/file.cpp.o.d -o CMakeFiles/composite_demo.dir/src/file.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp
 
-CMakeFiles/composite_demo.dir/src/leaf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/leaf.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp > CMakeFiles/composite_demo.dir/src/leaf.cpp.i
+CMakeFiles/composite_demo.dir/src/file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/file.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp > CMakeFiles/composite_demo.dir/src/file.cpp.i
 
-CMakeFiles/composite_demo.dir/src/leaf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/leaf.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp -o CMakeFiles/composite_demo.dir/src/leaf.cpp.s
+CMakeFiles/composite_demo.dir/src/file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/file.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp -o CMakeFiles/composite_demo.dir/src/file.cpp.s
 
-CMakeFiles/composite_demo.dir/src/composite.cpp.o: CMakeFiles/composite_demo.dir/flags.make
-CMakeFiles/composite_demo.dir/src/composite.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp
-CMakeFiles/composite_demo.dir/src/composite.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/composite_demo.dir/src/composite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/composite.cpp.o -MF CMakeFiles/composite_demo.dir/src/composite.cpp.o.d -o CMakeFiles/composite_demo.dir/src/composite.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp
+CMakeFiles/composite_demo.dir/src/directory.cpp.o: CMakeFiles/composite_demo.dir/flags.make
+CMakeFiles/composite_demo.dir/src/directory.cpp.o: /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp
+CMakeFiles/composite_demo.dir/src/directory.cpp.o: CMakeFiles/composite_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/composite_demo.dir/src/directory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/composite_demo.dir/src/directory.cpp.o -MF CMakeFiles/composite_demo.dir/src/directory.cpp.o.d -o CMakeFiles/composite_demo.dir/src/directory.cpp.o -c /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp
 
-CMakeFiles/composite_demo.dir/src/composite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/composite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp > CMakeFiles/composite_demo.dir/src/composite.cpp.i
+CMakeFiles/composite_demo.dir/src/directory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/composite_demo.dir/src/directory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp > CMakeFiles/composite_demo.dir/src/directory.cpp.i
 
-CMakeFiles/composite_demo.dir/src/composite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/composite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp -o CMakeFiles/composite_demo.dir/src/composite.cpp.s
+CMakeFiles/composite_demo.dir/src/directory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/composite_demo.dir/src/directory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp -o CMakeFiles/composite_demo.dir/src/directory.cpp.s
 
 # Object files for target composite_demo
 composite_demo_OBJECTS = \
 "CMakeFiles/composite_demo.dir/src/main.cpp.o" \
-"CMakeFiles/composite_demo.dir/src/component.cpp.o" \
-"CMakeFiles/composite_demo.dir/src/leaf.cpp.o" \
-"CMakeFiles/composite_demo.dir/src/composite.cpp.o"
+"CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o" \
+"CMakeFiles/composite_demo.dir/src/file.cpp.o" \
+"CMakeFiles/composite_demo.dir/src/directory.cpp.o"
 
 # External object files for target composite_demo
 composite_demo_EXTERNAL_OBJECTS =
 
 composite_demo: CMakeFiles/composite_demo.dir/src/main.cpp.o
-composite_demo: CMakeFiles/composite_demo.dir/src/component.cpp.o
-composite_demo: CMakeFiles/composite_demo.dir/src/leaf.cpp.o
-composite_demo: CMakeFiles/composite_demo.dir/src/composite.cpp.o
+composite_demo: CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o
+composite_demo: CMakeFiles/composite_demo.dir/src/file.cpp.o
+composite_demo: CMakeFiles/composite_demo.dir/src/directory.cpp.o
 composite_demo: CMakeFiles/composite_demo.dir/build.make
 composite_demo: CMakeFiles/composite_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable composite_demo"

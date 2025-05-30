@@ -8,10 +8,10 @@ include_directories(
 
 # Create test executable
 add_executable(composite_tests 
-    test_composite.cpp
-    ../src/component.cpp
-    ../src/leaf.cpp
-    ../src/composite.cpp
+    test_file_system.cpp
+    ../src/file_system_component.cpp
+    ../src/file.cpp
+    ../src/directory.cpp
 )
 
 # Link with Google Test libraries

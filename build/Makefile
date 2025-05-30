@@ -249,77 +249,77 @@ composite_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/composite_tests.dir/build.make tests/CMakeFiles/composite_tests.dir/build
 .PHONY : composite_tests/fast
 
-src/component.o: src/component.cpp.o
-.PHONY : src/component.o
+src/directory.o: src/directory.cpp.o
+.PHONY : src/directory.o
 
 # target to build an object file
-src/component.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/component.cpp.o
-.PHONY : src/component.cpp.o
+src/directory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.o
+.PHONY : src/directory.cpp.o
 
-src/component.i: src/component.cpp.i
-.PHONY : src/component.i
+src/directory.i: src/directory.cpp.i
+.PHONY : src/directory.i
 
 # target to preprocess a source file
-src/component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/component.cpp.i
-.PHONY : src/component.cpp.i
+src/directory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.i
+.PHONY : src/directory.cpp.i
 
-src/component.s: src/component.cpp.s
-.PHONY : src/component.s
+src/directory.s: src/directory.cpp.s
+.PHONY : src/directory.s
 
 # target to generate assembly for a file
-src/component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/component.cpp.s
-.PHONY : src/component.cpp.s
+src/directory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/directory.cpp.s
+.PHONY : src/directory.cpp.s
 
-src/composite.o: src/composite.cpp.o
-.PHONY : src/composite.o
+src/file.o: src/file.cpp.o
+.PHONY : src/file.o
 
 # target to build an object file
-src/composite.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/composite.cpp.o
-.PHONY : src/composite.cpp.o
+src/file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.o
+.PHONY : src/file.cpp.o
 
-src/composite.i: src/composite.cpp.i
-.PHONY : src/composite.i
+src/file.i: src/file.cpp.i
+.PHONY : src/file.i
 
 # target to preprocess a source file
-src/composite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/composite.cpp.i
-.PHONY : src/composite.cpp.i
+src/file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.i
+.PHONY : src/file.cpp.i
 
-src/composite.s: src/composite.cpp.s
-.PHONY : src/composite.s
+src/file.s: src/file.cpp.s
+.PHONY : src/file.s
 
 # target to generate assembly for a file
-src/composite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/composite.cpp.s
-.PHONY : src/composite.cpp.s
+src/file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file.cpp.s
+.PHONY : src/file.cpp.s
 
-src/leaf.o: src/leaf.cpp.o
-.PHONY : src/leaf.o
+src/file_system_component.o: src/file_system_component.cpp.o
+.PHONY : src/file_system_component.o
 
 # target to build an object file
-src/leaf.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/leaf.cpp.o
-.PHONY : src/leaf.cpp.o
+src/file_system_component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o
+.PHONY : src/file_system_component.cpp.o
 
-src/leaf.i: src/leaf.cpp.i
-.PHONY : src/leaf.i
+src/file_system_component.i: src/file_system_component.cpp.i
+.PHONY : src/file_system_component.i
 
 # target to preprocess a source file
-src/leaf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/leaf.cpp.i
-.PHONY : src/leaf.cpp.i
+src/file_system_component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.i
+.PHONY : src/file_system_component.cpp.i
 
-src/leaf.s: src/leaf.cpp.s
-.PHONY : src/leaf.s
+src/file_system_component.s: src/file_system_component.cpp.s
+.PHONY : src/file_system_component.s
 
 # target to generate assembly for a file
-src/leaf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/leaf.cpp.s
-.PHONY : src/leaf.cpp.s
+src/file_system_component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/composite_demo.dir/build.make CMakeFiles/composite_demo.dir/src/file_system_component.cpp.s
+.PHONY : src/file_system_component.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -364,15 +364,15 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/component.o"
-	@echo "... src/component.i"
-	@echo "... src/component.s"
-	@echo "... src/composite.o"
-	@echo "... src/composite.i"
-	@echo "... src/composite.s"
-	@echo "... src/leaf.o"
-	@echo "... src/leaf.i"
-	@echo "... src/leaf.s"
+	@echo "... src/directory.o"
+	@echo "... src/directory.i"
+	@echo "... src/directory.s"
+	@echo "... src/file.o"
+	@echo "... src/file.i"
+	@echo "... src/file.s"
+	@echo "... src/file_system_component.o"
+	@echo "... src/file_system_component.i"
+	@echo "... src/file_system_component.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

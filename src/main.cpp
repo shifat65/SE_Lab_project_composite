@@ -1,32 +1,32 @@
 #include <memory>
-#include "composite.h"
-#include "leaf.h"
+#include "iostream"
+#include "directory.h"
+#include "file.h"
 
 int main() {
-    // Create leaf elements
-    auto leaf1 = std::make_shared<Leaf>("Leaf1");
-    auto leaf2 = std::make_shared<Leaf>("Leaf2");
-    auto leaf3 = std::make_shared<Leaf>("Leaf3");
+    // Create files
+    auto file1 = std::make_shared<File>("document.txt", 1500);
+    auto file2 = std::make_shared<File>("image.jpg", 3500);
+    auto file3 = std::make_shared<File>("notes.txt", 500);
     
-    // Create composite elements
-    auto composite1 = std::make_shared<Composite>("Composite1");
-    auto composite2 = std::make_shared<Composite>("Composite2");
+    // Create directories
+    auto rootDir = std::make_shared<Directory>("Root");
+    auto documentsDir = std::make_shared<Directory>("Documents");
+    auto imagesDir = std::make_shared<Directory>("Images");
     
-    // Build tree structure
-    composite1->add(leaf1);
-    composite1->add(composite2);
-    composite2->add(leaf2);
-    composite2->add(leaf3);
+    // Build the file system structure
+    rootDir->add(documentsDir);
+    rootDir->add(imagesDir);
+    documentsDir->add(file1);
+    documentsDir->add(file3);
+    imagesDir->add(file2);
     
-    // Demonstrate operations
-    std::cout << "Calling operation on leaf:" << std::endl;
-    leaf1->operation();
+    // Display the file system
+    std::cout << "File System Structure:" << std::endl;
+    rootDir->display();
     
-    std::cout << "\nCalling operation on composite1:" << std::endl;
-    composite1->operation();
-    
-    std::cout << "\nCalling operation on composite2:" << std::endl;
-    composite2->operation();
+    // Show total size
+    std::cout << "\nTotal size of root: " << rootDir->getSize() << " bytes" << std::endl;
     
     return 0;
 }

@@ -114,11 +114,9 @@ CMakeFiles/composite_demo.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/composite.h \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/component.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
- /usr/include/c++/13/ios /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/ostream /usr/include/c++/13/ios \
+ /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
  /usr/include/c++/13/clocale /usr/include/locale.h \
@@ -170,8 +168,10 @@ CMakeFiles/composite_demo.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/directory.h \
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/file_system_component.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/leaf.h
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/file.h

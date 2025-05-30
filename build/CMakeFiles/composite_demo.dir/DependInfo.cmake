@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/component.cpp" "CMakeFiles/composite_demo.dir/src/component.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/component.cpp.o.d"
-  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/composite.cpp" "CMakeFiles/composite_demo.dir/src/composite.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/composite.cpp.o.d"
-  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/leaf.cpp" "CMakeFiles/composite_demo.dir/src/leaf.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/leaf.cpp.o.d"
+  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/directory.cpp" "CMakeFiles/composite_demo.dir/src/directory.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/directory.cpp.o.d"
+  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file.cpp" "CMakeFiles/composite_demo.dir/src/file.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/file.cpp.o.d"
+  "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/file_system_component.cpp" "CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/file_system_component.cpp.o.d"
   "/home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/src/main.cpp" "CMakeFiles/composite_demo.dir/src/main.cpp.o" "gcc" "CMakeFiles/composite_demo.dir/src/main.cpp.o.d"
   )
 

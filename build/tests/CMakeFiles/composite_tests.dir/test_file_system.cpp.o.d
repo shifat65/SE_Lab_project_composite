@@ -1,5 +1,5 @@
-tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o: \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_composite.cpp \
+tests/CMakeFiles/composite_tests.dir/test_file_system.cpp.o: \
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/tests/test_file_system.cpp \
  /usr/include/stdc-predef.h \
  /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/googletest/googletest/include/gtest/gtest.h \
  /usr/include/c++/13/cstddef \
@@ -280,6 +280,6 @@ tests/CMakeFiles/composite_tests.dir/test_composite.cpp.o: \
  /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/googletest/googletest/include/gtest/gtest_prod.h \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/composite.h \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/component.h \
- /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/leaf.h
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/directory.h \
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/file_system_component.h \
+ /home/shifat/Desktop/SE_lab_project/SE_Lab_project_composite/include/file.h

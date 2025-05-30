@@ -14,9 +14,9 @@ add_subdirectory(googletest)
 # Main executable
 add_executable(composite_demo 
     src/main.cpp
-    src/component.cpp
-    src/leaf.cpp
-    src/composite.cpp
+    src/file_system_component.cpp
+    src/file.cpp
+    src/directory.cpp
 )
 
 # Testing
