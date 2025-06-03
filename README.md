@@ -194,7 +194,11 @@ The project includes 14 unit tests covering:
    * Complex hierarchical display
 
 6. Stress Test Path
-   * Large number of files
-   * Deep directory structures
-   * Memory management
+* Large number of files
+* Deep directory structures
+* Memory management
+---
+### Test Result
+![test_result](test_result.png)
+
 
